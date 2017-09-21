@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50D82C991F7453590030BACF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D82C981F7453590030BACF /* AppDelegate.swift */; };
+		50D82C9B1F7453590030BACF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D82C9A1F7453590030BACF /* ViewController.swift */; };
+		50D82C9E1F74535A0030BACF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D82C9C1F74535A0030BACF /* Main.storyboard */; };
+		50D82CA01F74535B0030BACF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D82C9F1F74535B0030BACF /* Assets.xcassets */; };
+		50D82CA31F74535B0030BACF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D82CA11F74535B0030BACF /* LaunchScreen.storyboard */; };
+		50D82CAE1F74535C0030BACF /* ChootChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D82CAD1F74535C0030BACF /* ChootChatTests.swift */; };
+		50D82CB91F74535C0030BACF /* ChootChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D82CB81F74535C0030BACF /* ChootChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50D82CAA1F74535C0030BACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50D82C8D1F7453560030BACF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50D82C941F7453570030BACF;
+			remoteInfo = ChootChat;
+		};
+		50D82CB51F74535C0030BACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50D82C8D1F7453560030BACF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50D82C941F7453570030BACF;
+			remoteInfo = ChootChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50D82C951F7453570030BACF /* ChootChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChootChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D82C981F7453590030BACF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50D82C9A1F7453590030BACF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50D82C9D1F74535A0030BACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50D82C9F1F74535B0030BACF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50D82CA21F74535B0030BACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50D82CA41F74535B0030BACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50D82CA91F74535C0030BACF /* ChootChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChootChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D82CAD1F74535C0030BACF /* ChootChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChootChatTests.swift; sourceTree = "<group>"; };
+		50D82CAF1F74535C0030BACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50D82CB41F74535C0030BACF /* ChootChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChootChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D82CB81F74535C0030BACF /* ChootChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChootChatUITests.swift; sourceTree = "<group>"; };
+		50D82CBA1F74535C0030BACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50D82C921F7453570030BACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D82CA61F74535C0030BACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D82CB11F74535C0030BACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50D82C8C1F7453550030BACF = {
+			isa = PBXGroup;
+			children = (
+				50D82C971F7453570030BACF /* ChootChat */,
+				50D82CAC1F74535C0030BACF /* ChootChatTests */,
+				50D82CB71F74535C0030BACF /* ChootChatUITests */,
+				50D82C961F7453570030BACF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50D82C961F7453570030BACF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50D82C951F7453570030BACF /* ChootChat.app */,
+				50D82CA91F74535C0030BACF /* ChootChatTests.xctest */,
+				50D82CB41F74535C0030BACF /* ChootChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50D82C971F7453570030BACF /* ChootChat */ = {
+			isa = PBXGroup;
+			children = (
+				50D82C981F7453590030BACF /* AppDelegate.swift */,
+				50D82C9A1F7453590030BACF /* ViewController.swift */,
+				50D82C9C1F74535A0030BACF /* Main.storyboard */,
+				50D82C9F1F74535B0030BACF /* Assets.xcassets */,
+				50D82CA11F74535B0030BACF /* LaunchScreen.storyboard */,
+				50D82CA41F74535B0030BACF /* Info.plist */,
+			);
+			path = ChootChat;
+			sourceTree = "<group>";
+		};
+		50D82CAC1F74535C0030BACF /* ChootChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				50D82CAD1F74535C0030BACF /* ChootChatTests.swift */,
+				50D82CAF1F74535C0030BACF /* Info.plist */,
+			);
+			path = ChootChatTests;
+			sourceTree = "<group>";
+		};
+		50D82CB71F74535C0030BACF /* ChootChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50D82CB81F74535C0030BACF /* ChootChatUITests.swift */,
+				50D82CBA1F74535C0030BACF /* Info.plist */,
+			);
+			path = ChootChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50D82C941F7453570030BACF /* ChootChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D82CBD1F74535C0030BACF /* Build configuration list for PBXNativeTarget "ChootChat" */;
+			buildPhases = (
+				50D82C911F7453570030BACF /* Sources */,
+				50D82C921F7453570030BACF /* Frameworks */,
+				50D82C931F7453570030BACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChootChat;
+			productName = ChootChat;
+			productReference = 50D82C951F7453570030BACF /* ChootChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50D82CA81F74535C0030BACF /* ChootChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D82CC01F74535C0030BACF /* Build configuration list for PBXNativeTarget "ChootChatTests" */;
+			buildPhases = (
+				50D82CA51F74535C0030BACF /* Sources */,
+				50D82CA61F74535C0030BACF /* Frameworks */,
+				50D82CA71F74535C0030BACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50D82CAB1F74535C0030BACF /* PBXTargetDependency */,
+			);
+			name = ChootChatTests;
+			productName = ChootChatTests;
+			productReference = 50D82CA91F74535C0030BACF /* ChootChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50D82CB31F74535C0030BACF /* ChootChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D82CC31F74535C0030BACF /* Build configuration list for PBXNativeTarget "ChootChatUITests" */;
+			buildPhases = (
+				50D82CB01F74535C0030BACF /* Sources */,
+				50D82CB11F74535C0030BACF /* Frameworks */,
+				50D82CB21F74535C0030BACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50D82CB61F74535C0030BACF /* PBXTargetDependency */,
+			);
+			name = ChootChatUITests;
+			productName = ChootChatUITests;
+			productReference = 50D82CB41F74535C0030BACF /* ChootChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50D82C8D1F7453560030BACF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Deborah;
+				TargetAttributes = {
+					50D82C941F7453570030BACF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					50D82CA81F74535C0030BACF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50D82C941F7453570030BACF;
+					};
+					50D82CB31F74535C0030BACF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50D82C941F7453570030BACF;
+					};
+				};
+			};
+			buildConfigurationList = 50D82C901F7453560030BACF /* Build configuration list for PBXProject "ChootChat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50D82C8C1F7453550030BACF;
+			productRefGroup = 50D82C961F7453570030BACF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50D82C941F7453570030BACF /* ChootChat */,
+				50D82CA81F74535C0030BACF /* ChootChatTests */,
+				50D82CB31F74535C0030BACF /* ChootChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50D82C931F7453570030BACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D82CA31F74535B0030BACF /* LaunchScreen.storyboard in Resources */,
+				50D82CA01F74535B0030BACF /* Assets.xcassets in Resources */,
+				50D82C9E1F74535A0030BACF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D82CA71F74535C0030BACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D82CB21F74535C0030BACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50D82C911F7453570030BACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D82C9B1F7453590030BACF /* ViewController.swift in Sources */,
+				50D82C991F7453590030BACF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D82CA51F74535C0030BACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D82CAE1F74535C0030BACF /* ChootChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D82CB01F74535C0030BACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D82CB91F74535C0030BACF /* ChootChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50D82CAB1F74535C0030BACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50D82C941F7453570030BACF /* ChootChat */;
+			targetProxy = 50D82CAA1F74535C0030BACF /* PBXContainerItemProxy */;
+		};
+		50D82CB61F74535C0030BACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50D82C941F7453570030BACF /* ChootChat */;
+			targetProxy = 50D82CB51F74535C0030BACF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50D82C9C1F74535A0030BACF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50D82C9D1F74535A0030BACF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50D82CA11F74535B0030BACF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50D82CA21F74535B0030BACF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50D82CBB1F74535C0030BACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50D82CBC1F74535C0030BACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50D82CBE1F74535C0030BACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J6N8TR2LN;
+				INFOPLIST_FILE = ChootChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Deborah.ChootChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50D82CBF1F74535C0030BACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J6N8TR2LN;
+				INFOPLIST_FILE = ChootChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Deborah.ChootChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50D82CC11F74535C0030BACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J6N8TR2LN;
+				INFOPLIST_FILE = ChootChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Deborah.ChootChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChootChat.app/ChootChat";
+			};
+			name = Debug;
+		};
+		50D82CC21F74535C0030BACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J6N8TR2LN;
+				INFOPLIST_FILE = ChootChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Deborah.ChootChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChootChat.app/ChootChat";
+			};
+			name = Release;
+		};
+		50D82CC41F74535C0030BACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J6N8TR2LN;
+				INFOPLIST_FILE = ChootChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Deborah.ChootChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChootChat;
+			};
+			name = Debug;
+		};
+		50D82CC51F74535C0030BACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J6N8TR2LN;
+				INFOPLIST_FILE = ChootChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Deborah.ChootChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChootChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50D82C901F7453560030BACF /* Build configuration list for PBXProject "ChootChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D82CBB1F74535C0030BACF /* Debug */,
+				50D82CBC1F74535C0030BACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50D82CBD1F74535C0030BACF /* Build configuration list for PBXNativeTarget "ChootChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D82CBE1F74535C0030BACF /* Debug */,
+				50D82CBF1F74535C0030BACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50D82CC01F74535C0030BACF /* Build configuration list for PBXNativeTarget "ChootChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D82CC11F74535C0030BACF /* Debug */,
+				50D82CC21F74535C0030BACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50D82CC31F74535C0030BACF /* Build configuration list for PBXNativeTarget "ChootChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D82CC41F74535C0030BACF /* Debug */,
+				50D82CC51F74535C0030BACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50D82C8D1F7453560030BACF /* Project object */;
+}
